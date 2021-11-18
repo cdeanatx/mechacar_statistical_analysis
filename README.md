@@ -17,3 +17,8 @@ In this statistical test, our initial null hypothesis is that the slope of the l
 #### Model Success Metric
 
 The purpose of this model is to allow us to predict fuel efficiency, given a set of independent variables. In order to determine how effective our model is, we must look at the r-squared value. Since `r-squared = 0.715` for this model, we can conclude that the model will effectively predict fuel efficiency.
+
+
+
+## Summary Statistics on Suspension Coils
+
