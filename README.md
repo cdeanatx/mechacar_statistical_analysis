@@ -46,3 +46,25 @@ Lot 2's variance in suspension coils is approximately `7.47 PSI`, therefore they
 
 Lot 3's variance in suspension coils is approximately `170.29 PSI`, therefore their production of suspension coils is far outside of acceptable parameters.
 
+
+
+## T-Tests on Suspension Coils
+
+#### Compare Sample Data Across All Lots
+
+The p-value for this T-test is approximately `0.06`, which is greater than our significance level of `0.05`. Therefore, our null hypothesis that there is **no statistical difference** from the population mean **cannot be rejected**.
+
+#### Compare Sample Data by Each Lot
+
+###### Lot 1
+
+The p-value for this T-test is `1`, which is greater than our significance level of `0.05`. Therefore, our null hypothesis that there is **no statistical difference** from the population mean **cannot be rejected**.
+
+###### Lot 2
+
+The p-value for this T-test is approximately `0.61`, which is greater than our significance level of `0.05`. Therefore, our null hypothesis that there is **no statistical difference** from the population mean **cannot be rejected**.
+
+###### Lot 3
+
+The p-value for this T-test is approximately `0.04`, which is less than our significance level of `0.05`. Therefore, our null hypothesis that there is **no statistical difference** from the population mean **can be rejected**.
+
