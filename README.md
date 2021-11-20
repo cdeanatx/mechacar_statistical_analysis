@@ -68,3 +68,8 @@ The p-value for this T-test is approximately `0.61`, which is greater than our s
 
 The p-value for this T-test is approximately `0.04`, which is less than our significance level of `0.05`. Therefore, our null hypothesis that there is **no statistical difference** from the population mean **can be rejected**.
 
+
+
+## Study Design: MechaCar vs Competition
+
+To assess the benefits and shortcomings of Mechacar vs its competition, we will look at a few metrics: price, city and hwy fuel efficiency, and horsepower. Our null hypothesis across each metric will be that there is no statistical difference between the means of MechaCar's data and its competitiors' data. Because we are comparing the same type of data — cars — we can consider the MechaCar data and its competitors' data as samples of the same population. Therefore, we will use two-sample t-tests to compare. In order to run this test, all we need in addition MechaCar's data is a similar dataset from one or more of MechaCar's competitiors.
